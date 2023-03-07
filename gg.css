@@ -1,0 +1,86 @@
+ @import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300;700&display=swap");
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'tajawal', sans-serif;
+}
+body {
+  background-image: url("saf1.jpg");
+  background-size: 100%
+}
+.q{
+  padding: 24px;
+  margin: 5px;
+  background-color: #725656;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  line-height: 25px
+}
+.q img {
+  border-radius: 15px
+}
+
+  .g {
+    
+    text-align: center;
+    margin: 15px;
+    padding: 10px
+  }
+
+
+.g2 {
+  margin: 0;
+  padding: 0;
+  list-style: none
+}
+
+.g2 li {
+  
+background-color: lightslategrey  ;
+ display: inline-block;
+ border-radius: 15px;
+ mar6gin: 5px;
+ 
+ 
+}
+.g2 a {
+  
+  display: block;
+  padding: 0 10px;
+  list-style: none;
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+  line-he2ight: 100px;
+  transition-duration: .3s;
+  
+}
+
+
+.w{
+  padding: 24px;
+  margin: 5px;
+  background-color: #977975;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  line-height: 25px
+}
+.w li {
+  background-color: #655050;
+  border-radius: 20px;
+  padding: 20px
+}
+
+.g2 a:hover {
+
+  padding: 5px;
+  background-color: darkgoldenrod;
+  border-radius: 15px
+}

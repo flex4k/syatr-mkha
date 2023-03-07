@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap'); 
+ @import url("https://fonts.googleapis.com/css2?family=Lalezar&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300;700&display=swap");
+
+*{ 
+  margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'tajawal', sans-serif; }
+body{
+  background-image: url("saf1.jpg");
+  background-size: 100%
+}
+.wrapper{ 
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
+  
+  /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */ /* clip-path: circle(25px at calc(0% + 45px) 45px); */ clip-path: circle(25px at calc(100% - 45px) 45px);
+  
+  transition: all 0.3s ease-in-out; 
+  
+}
+
+#active:checked ~ .wrapper{ clip-path: circle(75%); } 
+
+.menu-btn{ 
+  position: absolute;
+z-index: 2;
+right: 20px; /* left: 20px; */ top: 20px;
+height: 50px;
+width: 50px;
+text-align: center;
+line-height: 50px;
+border-radius: 50%;
+font-size: 20px;
+color: #fff; 
+cursor: pointer;
+background: linear-gradient(-135deg, #c850c0, #4158d0);
+
+/* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
+
+transition: all 0.3s ease-in-out; } #active:checked ~ 
+.menu-btn{ background: #fff;
+color: #4158d0;
+} 
+
+#active:checked ~ 
+.menu-btn i:before{ content: "\f00d"; } .wrapper ul{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); list-style: none; text-align: center; } .wrapper ul li{ margin: 15px 0; } .wrapper ul li a{ color: none; text-decoration: none; font-size: 30px; font-weight: 500; padding: 5px 30px; color: #fff; position: relative; line-height: 50px; transition: all 0.3s ease; } 
+
+.wrapper ul li a:after{ position: absolute; content: ""; background: #fff; width: 100%; height: 50px; left: 0; border-radius: 50px; transform: scaleY(0); z-index: -1; transition: transform 0.3s ease; } .wrapper ul li a:hover:after{ transform: scaleY(1); } .wrapper ul li a:hover{ color: #4158d0; } input[type="checkbox"]{ display: none; } .content{ position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: -1; text-align: center; width: 100%; color: #202020; } .content .title{ font-size: 40px; font-weight: 700; } .content p{ font-size: 35px; font-weight: 600; }
+
+
+  
+  .g {
+    
+    text-align: center
+  }
+
+
+.g2 {
+  margin: 0;
+  padding: 0;
+  list-style: none
+}
+
+.g2 li {
+  
+background-color: lightslategrey  ;
+ display: inline-block;
+ border-radius: 15px;
+ mar6gin: 5px;
+ 
+ 
+}
+.g2 a {
+  
+  display: block;
+  padding: 0 20px;
+  list-style: none;
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+  line-he2ight: 100px;
+  transition-duration: .3s;
+  
+}
+.g2  a:hover{
+  background-color: darkgoldenrod;
+  padding: 5px;
+  border-radius: 15px
+  
+  
+}
+
+
+.s2  {
+  background-color: lightslategrey ;
+  margin: 30px;
+  padding: 5%;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  overflow: auto;
+  box-shadow: 2px 2px 5px silver;
+}
+.s2 img {
+  width: 100%;
+  border-radius: 20px;
+}
+.s32 p {
+  background-color: darkgoldenrod;
+  border-radius: 15px;
+  padding: 15px
+ 
+}
+
+
+
+.menu-btn2{ 
+  position: absolute;
+z-index: 2;
+right: 350px; /* left: 20px; */ top: 20px;
+height: 50px;
+width: 50px;
+text-align: center;
+line-height: 50px;
+border-radius: 50%;
+font-size: 20px;
+color: #fff; 
+cursor: pointer;
+background: linear-gradient(-135deg, green, #4158d0);
+
+/* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
+
+transition: all 0.3s ease-in-out; } #active:checked2 ~ 
+.menu-btn{ 
+color: #4158d0;
+} 
+.menu-btn2 a {
+  color: white
+}
+
+
+.s3 {
+  background-color: #725656;
+  margin: 30px;
+  padding: 5%;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  overflow: auto;
+  box-shadow: 2px 2px 5px silver;
+}
+
+.s3 img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.s3 p {
+  background-color: darkgoldenrod;
+  border-radius: 15px;
+  padding: 15px
+}
+
+.s33 {
+  
+
+background-color: darkslategray;
+  margin: 30px;
+  padding: 5%;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  overflow: auto;
+  box-shadow: 2px 2px 5px silver;
+}
+
+.s33 img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.s33 p {
+  background-color: slategray;
+  border-radius: 15px;
+  padding: 15px
+}
+
+
+
+
+.s35 {
+  
+
+  background-color: #725656 ;
+  margin: 30px;
+  padding: 5%;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  overflow: auto;
+  box-shadow: 2px 2px 5px silver;
+}
+
+.s35 img {
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid bisque
+  
+}
+
+.s35 h3 {
+  background: darkgoldenrod;
+  padding: 3px;
+  margin: 5px;
+  border-radius: 15px
+}
+
+.s35 p {
+  backgroun6d-color: #725656;
+  border-radius: 15px;
+  padding: 15pxlightslategrey;
+  line-height: 20px;
+  ma3rgin: 4px;
+  padding: 10px;
+  line-height: 20px
+}
+
+
+
+
+
+.m  {
+  display: inline-block;
+  line-height: 30px;
+  overflow: auto;
+  box-align: center;
+  background-color: red;
+  
+}
+.s6 {
+  background-color: #725656;
+  margin: 30px;
+  padding: 5%;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  overflow: auto;
+  box-shadow: 2px 2px 5px silver;
+}
+
+.s6 img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.s6 p {
+  background-color: #725656;
+  border-radius: 15px;
+  padding: 15px
+  
+}
+
+
+.c  {
+  background-color: #725656;
+  padding: 20px;
+  border-radius: 30px;
+  
+ margin: 2px;
+ text-align: center;
+ color: white;
+ text-overflow: auto;
+ line-height: 20px
+}
+.c a {
+  text-decoration: none;
+  color: white;
+  background-color: darkgreen;
+  border-radius: 20px;
+  padding: 10px
+}
+.c h5 {
+  background-color: #655050 ;
+  padding: 20px;
+  border-radius: 15px
+}
+
+.c a:hover {
+  
+  padding: 15px;
+  background-color: seagreen
+}
+.yy {
+  
+  background: red ;
+  background: rgba(0, 0, 30, .1); 
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+  
+border-radius:20px;
+}
+.yy img {
+  width: 30%;
+  display: inline-block;
+  color: white;
+  justify-self: center
+}
+
+.yy h3 {
+  background-color: #725656;
+  padding: 15px;
+  margin: 90px;
+  border-radius: 20px;
+  color: white
+}
+
+.hh {
+  background-color: #655050;
+  text-align: center;
+  color: white;
+
+}
+.hh a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  margin: 50px;
+}
+
+
+
+.z {
+  background-color: dimgray;
+  color: white;
+  text-align: center;
+  padding: 20px
+}
+* img:hover {
+  padding: 10px;
+  border: 2px solid #ffffff
+}
+.ii img {
+  border: 0
+}
+.hh img {
+  border: 0
+}
