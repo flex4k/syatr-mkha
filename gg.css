@@ -84,3 +84,20 @@ background-color: lightslategrey  ;
   background-color: darkgoldenrod;
   border-radius: 15px
 }
+
+.kr {
+  padding: 10px;
+  margin: 5px;
+  }
+  .kr h3 {
+    background-color: bisque;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+    color: lightslategray
+  }
+.wo {
+ border:2px solid orange;
+ padding: 1% ;
+ border-radius: 15px 
+}
