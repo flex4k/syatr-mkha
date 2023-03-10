@@ -371,3 +371,80 @@ border-radius:20px;
  padding: 1% ;
  border-radius: 15px 
 }
+
+
+
+/* Responsive Design */
+
+@media (max-width: 660px){
+
+  .phones-section {
+    align-items: center;
+  }
+  .c  {
+    font-size: 1rem;
+    text-align: center;
+    overflow: auto;
+    line-height: 30px;
+  
+    
+  }
+  
+  .s3 {
+    font-size: 1rem;
+    text-align: center;
+    overflow: auto;
+    line-height: 30px
+  }
+  .s2 {
+    font-size: 1rem;
+    text-align: center;
+    overflow: auto;
+    line-height: 30px
+  }
+  .s6 {
+    font-size: 1rem;
+    text-align: center;
+    overflow: auto;
+    line-height: 30px
+  }
+  .s6 {
+    font-size: 1rem;
+    text-align: center;
+    overflow: auto;
+    line-height: 30px
+  }
+  
+  .s32 {
+    font-size: 1rem;
+    text-align: center;
+    overflow: auto;
+    line-height: 30px
+  }
+  
+  .s33 {
+    font-size: 1rem;
+    text-align: center;
+    overflow: auto;
+    line-height: 30px
+  }
+  .s35  {
+    font-size: 1rem;
+    text-align: center;
+    overflow: auto;
+    line-height: 30px
+  }
+  .s35 p  {
+    line-height: 30px;
+    
+  }
+  
+  
+  
+  .m {
+    font-size: 1rem;
+    text-align: center;
+    overflow: auto;
+    line-height: 30px
+  }
+  
