@@ -99,7 +99,7 @@ background-color: lightslategrey  ;
 
 
 .s2  {
-  background-color: lightslategrey ;
+  background-color: #463939 ;
   margin: 30px;
   padding: 5%;
   border-radius: 20px;
@@ -113,7 +113,7 @@ background-color: lightslategrey  ;
   border-radius: 20px;
 }
 .s32 p {
-  background-color: darkgoldenrod;
+  background-color: #463939;
   border-radius: 15px;
   padding: 15px
  
@@ -147,7 +147,7 @@ color: #4158d0;
 
 
 .s3 {
-  background-color: #725656;
+  background-color:#463939;
   margin: 30px;
   padding: 5%;
   border-radius: 20px;
@@ -163,7 +163,7 @@ color: #4158d0;
 }
 
 .s3 p {
-  background-color: darkgoldenrod;
+  background-color: #463939;
   border-radius: 15px;
   padding: 15px
 }
@@ -171,7 +171,7 @@ color: #4158d0;
 .s33 {
   
 
-background-color: darkslategray;
+background-color: #463939;
   margin: 30px;
   padding: 5%;
   border-radius: 20px;
@@ -187,7 +187,7 @@ background-color: darkslategray;
 }
 
 .s33 p {
-  background-color: slategray;
+  background-color: #463939;
   border-radius: 15px;
   padding: 15px
 }
@@ -198,7 +198,7 @@ background-color: darkslategray;
 .s35 {
   
 
-  background-color: #725656 ;
+  background-color: #463939 ;
   margin: 30px;
   padding: 5%;
   border-radius: 20px;
@@ -223,7 +223,7 @@ background-color: darkslategray;
 }
 
 .s35 p {
-  backgroun6d-color: #725656;
+  backgroun6d-color: #463939;
   border-radius: 15px;
   padding: 15pxlightslategrey;
   line-height: 20px;
@@ -245,7 +245,7 @@ background-color: darkslategray;
   
 }
 .s6 {
-  background-color: #725656;
+  background-color: #463939 ;
   margin: 30px;
   padding: 5%;
   border-radius: 20px;
@@ -261,7 +261,7 @@ background-color: darkslategray;
 }
 
 .s6 p {
-  background-color: #725656;
+  background-color: #463939;
   border-radius: 15px;
   padding: 15px
   
@@ -287,7 +287,7 @@ background-color: darkslategray;
   padding: 10px
 }
 .c h5 {
-  background-color: #655050 ;
+  background-color: #463939 ;
   padding: 20px;
   border-radius: 15px
 }
@@ -299,7 +299,7 @@ background-color: darkslategray;
 }
 .yy {
   
-  background: red ;
+  background: #463939 ;
   background: rgba(0, 0, 30, .1); 
   justify-content: center;
   text-align: center;
@@ -360,7 +360,7 @@ border-radius:20px;
   margin: 5px;
   }
   .kr h3 {
-    background-color: bisque;
+    background-color: #463939;
     padding: 15px;
     margin: 10px;
     border-radius: 20px;
@@ -448,3 +448,12 @@ border-radius:20px;
     line-height: 30px
   }
   
+  * h3 {
+    background-color: darkgoldenrod;
+    border-radius: 15px;
+    margin: 15px
+  }
+  .kr h3 {
+    background: #463939;
+    color: white
+  }
