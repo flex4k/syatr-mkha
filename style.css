@@ -1,11 +1,16 @@
 
  @import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300;700&display=swap");
-
+*img {
+  width: 100%; /* or max-width: 100%; */
+  height: auto;
+}
 *{ 
+  
   margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: 'tajawal', sans-serif; }
+
 body{
   background-image: url("saf1.jpg");
   background-size: 100%
@@ -57,8 +62,12 @@ color: #4158d0;
   
   .g {
     
-    text-align: center
+    text-align: center;
+
+    margin: 15px;
+    padding: 10px
   }
+
 
 
 .g2 {
@@ -67,34 +76,65 @@ color: #4158d0;
   list-style: none
 }
 
+
+
 .g2 li {
   
 background-color: lightslategrey  ;
  display: inline-block;
  border-radius: 15px;
- mar6gin: 5px;
  
- 
+
 }
-.g2 a {
+
+
+.eg2 ae {
   
   display: block;
   padding: 0 20px;
   list-style: none;
   color: white;
   text-decoration: none;
-  margin: 5px;
-  line-he2ight: 100px;
+  margin: 25px;
+ 
   transition-duration: .3s;
   
 }
-.g2  a:hover{
+
+.g2 a {
+  
+  display: block;
+  padding: 0 10px;
+  list-style: none;
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+ 
+  transition-duration: .3s;
+  
+}
+
+
+
+.gr2  ra:hover{
   background-color: darkgoldenrod;
-  padding: 5px;
-  border-radius: 15px
+  padding: 25px;
+  border-radius: 15px;
+  padding: 20
   
   
 }
+
+
+.g2 a:hover {
+
+  padding: 5px;
+  background-color: darkgoldenrod;
+  border-radius: 15px
+}
+
+
+
 
 
 .s2  {
@@ -111,6 +151,8 @@ background-color: lightslategrey  ;
   width: 100%;
   border-radius: 20px;
 }
+
+ 
 
 
 
@@ -153,6 +195,7 @@ color: #4158d0;
 .s3 img {
   width: 100%;
   border-radius: 20px;
+  height: auto
 }
 
 
@@ -173,6 +216,7 @@ background-color: #463939;
 .s33 img {
   width: 100%;
   border-radius: 20px;
+  height: auto
 }
 
 
@@ -212,17 +256,16 @@ background-color: #463939;
 
 
 
-
 .m  {
   display: inline-block;
   line-height: 30px;
   overflow: auto;
-  box-align: center;
+
   background-color: red;
   
 }
 .s6 {
-  background-color: #463939 ;
+  background-color: #725656;
   margin: 30px;
   padding: 5%;
   border-radius: 20px;
@@ -241,7 +284,7 @@ background-color: #463939;
 
 
 .c  {
-  background-color: #725656;
+  background-color: #463939;
   padding: 20px;
   border-radius: 30px;
   
@@ -271,7 +314,7 @@ background-color: #463939;
 }
 .yy {
   
-  background: #463939 ;
+  background: red ;
   background: rgba(0, 0, 30, .1); 
   justify-content: center;
   text-align: center;
@@ -284,7 +327,6 @@ border-radius:20px;
   width: 30%;
   display: inline-block;
   color: white;
-  justify-self: center
 }
 
 .yy h3 {
@@ -320,12 +362,7 @@ border-radius:20px;
   padding: 10px;
   border: 2px solid #ffffff
 }
-.ii img {
-  border: 0
-}
-.hh img {
-  border: 0
-}
+
 
 .kr {
   padding: 10px;
@@ -345,8 +382,13 @@ border-radius:20px;
 }
 
 
+img {
+  max-width: 100%;
+  display: block;
+}
 
-/* Responsive Design */
+
+
 
 @media (max-width: 660px){
 
@@ -419,7 +461,7 @@ border-radius:20px;
     overflow: auto;
     line-height: 30px
   }
-  
+  }
   * h3 {
     background-color: darkgoldenrod;
     border-radius: 15px;
@@ -428,9 +470,4 @@ border-radius:20px;
   .kr h3 {
     background: #463939;
     color: white
-  }
-* p {
-  background-color: #463939;
-  border-radius: 15px;
-  padding: 15px
-}
+ }
