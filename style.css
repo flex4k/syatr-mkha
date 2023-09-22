@@ -471,3 +471,16 @@ img {
     background: #463939;
     color: white
  }
+
+aside img {
+    margin: 15px ;
+    padding: 17px ;
+transform: scale(0.8)
+    
+    
+  }
+  
+  aside h3 {
+    padding: 9px ;
+    transform: scale(0.8)
+  }
